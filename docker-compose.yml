@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  react-app:
+    image: vinothbabulearning/dev:v2
+    ports:
+      - "3000:3000"
