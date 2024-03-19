@@ -1,5 +1,5 @@
-# Use a base image that includes Node.js and npm
-FROM node:latest
+# Use a base image that includes Node.js and npm 
+FROM node:alpine
 
 # Set the working directory inside the container
 WORKDIR /app
