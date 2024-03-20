@@ -4,6 +4,6 @@
 docker build -t vinothbabulearning/dev:v2 .
 
 # creating container using docker compose file
-#docker compose up -d
+docker compose up -d
 
 
