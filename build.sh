@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # stopping all container & removing it
+# otherwise it will throw error
 docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 
