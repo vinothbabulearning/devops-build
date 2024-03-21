@@ -1,2 +1,2 @@
 #!/bin/bash
-docker push vinothbabulearning/{$ENV}:v2
+docker push vinothbabulearning/$1:v2
