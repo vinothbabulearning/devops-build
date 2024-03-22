@@ -1,3 +1,2 @@
 #!/bin/bash
-docker login -u vinothbabulearning
-docker push vinothbabulearning/dev:v2
+docker push vinothbabulearning/$1:v2
