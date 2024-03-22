@@ -7,8 +7,8 @@ docker rm $(docker ps -a -q)
 
 docker ps -a
 
-# Building docker image
-docker build -t vinothbabulearning/$1:$2 .
+### Building docker image
+docker build -t vinothbabulearning/$1:v2 .
 
 #### creating container using docker compose file
 docker compose up -d
