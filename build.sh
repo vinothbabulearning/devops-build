@@ -10,7 +10,7 @@ docker ps -a
 ### Building docker image
 docker build -t vinothbabulearning/$1:v2 .
 
-##### creating container using docker compose file
+######## creating container using docker compose file
 docker compose up -d
 
 
